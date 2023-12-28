@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap');
+
+body {
+    background-image: linear-gradient(to left, #edf3fd, #d7deeb, #c1cad9, #acb6c8, #97a3b7);
+    font-family: 'Yu Gothic UI Light';
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main h1{
+    font-size: 160px;
+    letter-spacing: 20px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    background: url(img/background.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+main h2{
+    font-size: 35px;
+}
+main h3{
+    font-size: 25px;
+}
+.home{
+    background-color: #e55039aa;
+    border: 2px solid #000000;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
